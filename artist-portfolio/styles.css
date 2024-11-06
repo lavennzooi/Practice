@@ -1,0 +1,100 @@
+html, body{
+    font-size:16px;
+    text-align:center;
+    font-family: "Nunito", sans-serif;
+}
+
+.container{
+    width:100%;
+    margin: 0 auto;
+}
+
+header{
+    height:30%;
+    padding:3% 0;
+}
+
+header h1{
+    font-size:2.5rem;
+    text-transform: uppercase;
+    font-weight:200;
+    letter-spacing:0.25em;
+}
+
+h2{
+    font-size:1.8rem;
+    text-transform: uppercase;
+    font-weight:200;
+    letter-spacing:0.25em;
+}
+
+h3{
+    font-size:1.4rem;
+    font-weight:700;
+}
+
+.nav{
+    margin:auto;
+}
+
+.nav ul{
+    list-style: none;
+    display:inline-flex;
+    justify-content:space-between;
+    width:50%;
+}
+
+.nav li a, a:active, a:visited{
+    text-decoration:none;
+    font-size:1.25rem;
+    color:#aaaaaa;
+}
+
+.about{
+    background-image:url("./assets/brand/_MG_6925e\ copy.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+    height:30rem;
+    width:100%;
+    margin:5% auto;
+    padding:2rem 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+p{
+    display:block;
+    font-size:1.5rem;
+    width:50%;
+    margin:auto;
+    padding-bottom:2%;
+    font-weight:600;
+    line-height:2rem;
+}
+
+.gallery{
+    margin:10% auto;
+}
+
+.gallery img{
+    margin:1.5%;
+    display:inline-block;
+    width:30%;
+}
+
+.contact{
+    background:#9ea5e4;
+    height:15rem;
+    display:flex;
+    align-items:center;
+    line-height:1.5rem;
+}
+
+footer{
+    margin:5rem auto;
+}
